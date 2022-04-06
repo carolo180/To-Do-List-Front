@@ -37,8 +37,11 @@ const App = () => {
     return (
         <div className="ui container center aligned back">
             <Section>
-                <h1 className='titulo'>{appTitle}</h1>
-                <img src={pen} width="30px"/>
+                <div className='headers'>
+                    <h1 className='titulo'>{appTitle}</h1>
+                    <img src={pen} width="30px"/>
+                </div>
+              
             </Section>
 
             <Section>

@@ -50,7 +50,7 @@ const Todo = ({ title, completed, removeTodoItemProp, editTodoItemProp }) => {
                     </div>
                 </div> :
                 <>
-                    <div className="column five wide" onDoubleClick={handleDivDoubleClick}>
+                    <div className="column seven wide" onDoubleClick={handleDivDoubleClick}>
                         <h2 className={"ui header" + (completedState ? " green" : "")}>{value}</h2>
                     </div>
 

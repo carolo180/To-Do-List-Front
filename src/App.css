@@ -18,6 +18,11 @@ html{
     font-size: 3rem;
     color: rgb(247, 94, 6);
     padding-top: -3%;
+    padding-right: 15px;
+}
+.headers{
+    display: flex;
+    justify-content: center;
 }
 
 .formu{
@@ -25,4 +30,6 @@ html{
 }
 .lista{
     background-color: rgba(216, 211, 211, 0.795);
+    display: flex;
+   justify-content: center;
 }

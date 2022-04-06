@@ -14,7 +14,7 @@ const List = ({ list, removeTodoListProp, editTodoListProp }) => {
         )
     );
     return (
-        <div className="ui grid center aligned lista">
+        <div className="ui grid lista">
             {renderedList}
         </div>
     );
