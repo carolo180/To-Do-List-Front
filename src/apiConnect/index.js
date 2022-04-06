@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:3030"
+  baseURL: "https://todolist-react-node.herokuapp.com"
 });
